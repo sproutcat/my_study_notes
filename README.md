@@ -45,10 +45,6 @@
 
 * [Vue.js](http://cn.vuejs.org/guide/)
 
-#####其他语言
-* Python教程
-[3.x版](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
-[2.7版](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
 
 #####数据库
 * [21分钟 MySQL 入门教程](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html)
@@ -60,5 +56,11 @@
 * [九十分钟极速入门Linux——Linux Guide for Developments 学习笔记](http://mp.weixin.qq.com/s?__biz=MzAwNTMxMzg1MA==&mid=404510068&idx=2&sn=0fc406025644a60ae8a94f3ff0cba626&scene=23&srcid=0101ZDCyZGjWLS8ygofWkNSh#rd)
 * [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/)
 * [Java开发必会的Linux命令](http://www.importnew.com/17354.html)
+
+
+#####其他语言
+* Python教程
+[3.x版](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
+[2.7版](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
 
 
