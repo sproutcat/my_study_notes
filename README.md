@@ -13,7 +13,7 @@
 * [KIndex](https://github.com/Martin404/KIndex) 技术知识点索引，每日一读
 * [软件长寿法则，记住这7条](http://begeek.cn/post/5012.html)
 * [怎样打造一个分布式数据库](http://www.infoq.com/cn/articles/how-to-build-a-distributed-database)
-* [SublimeText 3常用快捷键和优秀插件](http://www.jianshu.com/p/1f582b42335a)
+* [SublimeText3常用快捷键和优秀插件](http://www.jianshu.com/p/1f582b42335a)
 * [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 * [理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful)
 * [这多年来我一直在钻研的技术](http://coolshell.cn/articles/17446.html)
@@ -21,6 +21,8 @@
 * [微服务架构的理论基础 - 康威定律](https://yq.aliyun.com/articles/8611?f=tt)
 * [认清性能问题](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=2650610655&idx=1&sn=4f38ef56ff57054ab9745b0725351159#rd)
 * [全栈工程师技能树](https://github.com/geekcompany/full-stack-tree)
+* [缓存更新的套路](http://coolshell.cn/articles/17416.html)
+
 
 #####数据结构与算法
 * [算法分析的正确姿势](http://www.cnblogs.com/absfree/p/5464779.html)
@@ -30,10 +32,13 @@
 * [Java后端工程师技能树](http://www.rowkey.me/blog/2016/06/17/java-skill-tree/)
 * [能够提高开发效率的Eclipse实用操作](http://blog.jobbole.com/103503/)
 * [深入探讨在集群环境中使用 EhCache 缓存系统](http://www.ibm.com/developerworks/cn/java/j-lo-ehcache/)
+* [Redis与Java – 数据结构](http://www.importnew.com/21028.html)
 * [一个对象占用多少字节？](http://yueyemaitian.iteye.com/blog/2033046)
 * [一个Java对象到底占多大内存？](http://mp.weixin.qq.com/s?__biz=MzA4NDc2MDQ1Nw==&mid=2650237919&idx=1&sn=a91f281e2dd2d27d6e15292002e3c5a5&scene=0#wechat_redirect)
 * [69个经典 Spring 面试题和答案](http://www.codeceo.com/article/69-spring-interview-questions.html)
-
+* [Java中的多线程你只要看这一篇就够了](http://www.importnew.com/21089.html)
+* [高并发Java（1）：前言](http://www.importnew.com/21229.html)
+* [高并发Java（2）：多线程基础](http://www.importnew.com/21239.html)
 
 #####JAVASCRIPT
 * [javascript获取光标位置与在光标位置插入内容](http://www.cnblogs.com/johnvajicic/archive/2013/05/17/3084674.html)
