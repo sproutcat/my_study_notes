@@ -4,9 +4,11 @@
 建设中……
 
 #####综合
+* [常用快捷键大全](http://www.cnblogs.com/best/p/5818597.html)
 * 新兵训练营课程——环境与工具（git、maven）
 	[（上）](http://weibo.com/p/1001643874239169320051)
 	[（下）](http://weibo.com/p/1001643874240234698089)
+* [Git book](https://git-scm.com/book/zh/v2)
 * [Git操作指南](http://www.rowkey.me/blog/2016/01/10/git-usage/)
 * [Github基础Github Basics](https://github.com/xirong/my-git/blob/master/how-to-use-github.md)
 * [免费的计算机编程类中文书籍](https://github.com/justjavac/free-programming-books-zh_CN)
@@ -22,6 +24,7 @@
 * [认清性能问题](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=2650610655&idx=1&sn=4f38ef56ff57054ab9745b0725351159#rd)
 * [全栈工程师技能树](https://github.com/geekcompany/full-stack-tree)
 * [缓存更新的套路](http://coolshell.cn/articles/17416.html)
+* [高性能数据库连接池的内幕](http://mp.weixin.qq.com/s?__biz=MzI3MzEzMDI1OQ==&mid=2651814835&idx=1&sn=cb775d3926ce39d12fa420a292c1f83d&scene=0#wechat_redirect)
 
 
 #####数据结构与算法
@@ -36,9 +39,20 @@
 * [一个对象占用多少字节？](http://yueyemaitian.iteye.com/blog/2033046)
 * [一个Java对象到底占多大内存？](http://mp.weixin.qq.com/s?__biz=MzA4NDc2MDQ1Nw==&mid=2650237919&idx=1&sn=a91f281e2dd2d27d6e15292002e3c5a5&scene=0#wechat_redirect)
 * [69个经典 Spring 面试题和答案](http://www.codeceo.com/article/69-spring-interview-questions.html)
+* [数据库连接池优化配置(druid,dbcp,c3p0)](http://blog.csdn.net/hetaohappy/article/details/51861015)
 * [Java中的多线程你只要看这一篇就够了](http://www.importnew.com/21089.html)
+* [Java代码优化](http://www.importnew.com/21224.html)
+* [Java GC的那些事（1）](http://blog.jobbole.com/105044/)
 * [高并发Java（1）：前言](http://www.importnew.com/21229.html)
 * [高并发Java（2）：多线程基础](http://www.importnew.com/21239.html)
+* [高并发Java（3）：Java内存模型和线程安全](http://www.importnew.com/21245.html)
+* [高并发Java（4）：无锁](http://www.importnew.com/21282.html)
+* [高并发Java（5）：JDK并发包1](http://www.importnew.com/21288.html)
+* [高并发Java（6）：JDK并发包2](http://www.importnew.com/21303.html)
+* [高并发Java（7）：并发设计模式](http://www.importnew.com/21312.html)
+* [高并发Java（8）：NIO和AIO](http://www.importnew.com/21341.html)
+* [高并发Java（9）：锁的优化和注意事项](http://www.importnew.com/21353.html)
+* [高并发Java（10）：JDK8对并发的新支持](http://www.importnew.com/21358.html)
 
 #####JAVASCRIPT
 * [javascript获取光标位置与在光标位置插入内容](http://www.cnblogs.com/johnvajicic/archive/2013/05/17/3084674.html)
@@ -48,14 +62,17 @@
 
 #####数据库
 * [21分钟 MySQL 入门教程](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html)
-
+* [Oracle 表和表数据恢复](http://www.cnblogs.com/java-class/p/5817217.html)
+* [Oracle 数据库日常巡检](http://www.cnblogs.com/java-class/p/4979798.html)
+* [Oracle 常用函数](http://www.cnblogs.com/java-class/p/5199145.html)
+* [ORACLE SQL 性能调优日常积累](http://www.cnblogs.com/java-class/p/4555767.html)
 
 #####LINUX
 * [鳥哥的Linux私房菜](http://linux.vbird.org/)
 * [Linux入门教程](http://www.92csz.com/study/linux/)
+* [Java开发必会的Linux命令](http://www.importnew.com/17354.html)
 * [九十分钟极速入门Linux——Linux Guide for Developments 学习笔记](http://mp.weixin.qq.com/s?__biz=MzAwNTMxMzg1MA==&mid=404510068&idx=2&sn=0fc406025644a60ae8a94f3ff0cba626&scene=23&srcid=0101ZDCyZGjWLS8ygofWkNSh#rd)
 * [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/)
-* [Java开发必会的Linux命令](http://www.importnew.com/17354.html)
 
 
 #####其他语言
