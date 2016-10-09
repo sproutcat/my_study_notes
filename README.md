@@ -4,6 +4,8 @@
 建设中……
 
 #####综合
+* [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
+* [Web全栈技术指南](https://coin8086.gitbooks.io/getfullstack/content/)
 * [常用快捷键大全](http://www.cnblogs.com/best/p/5818597.html)
 * 新兵训练营课程——环境与工具（git、maven）
 	[（上）](http://weibo.com/p/1001643874239169320051)
@@ -24,14 +26,16 @@
 * [认清性能问题](http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=2650610655&idx=1&sn=4f38ef56ff57054ab9745b0725351159#rd)
 * [全栈工程师技能树](https://github.com/geekcompany/full-stack-tree)
 * [缓存更新的套路](http://coolshell.cn/articles/17416.html)
-* [高性能数据库连接池的内幕](http://mp.weixin.qq.com/s?__biz=MzI3MzEzMDI1OQ==&mid=2651814835&idx=1&sn=cb775d3926ce39d12fa420a292c1f83d&scene=0#wechat_redirect)
+* [把《编程珠玑》读薄](http://www.hawstein.com/posts/make-thiner-programming-pearls.html)
 
 
 #####数据结构与算法
 * [算法分析的正确姿势](http://www.cnblogs.com/absfree/p/5464779.html)
-
+* [算法精粹](https://www.gitbook.com/book/soulmachine/algorithm-essentials/details)
+* [数据结构与算法设计](https://suanfa.herokuapp.com/0preface/)
 
 #####JAVA
+* [Thinking in Java (Java 编程思想)](https://www.gitbook.com/book/quanke/think-in-java/details)
 * [Java后端工程师技能树](http://www.rowkey.me/blog/2016/06/17/java-skill-tree/)
 * [能够提高开发效率的Eclipse实用操作](http://blog.jobbole.com/103503/)
 * [深入探讨在集群环境中使用 EhCache 缓存系统](http://www.ibm.com/developerworks/cn/java/j-lo-ehcache/)
@@ -39,10 +43,15 @@
 * [一个对象占用多少字节？](http://yueyemaitian.iteye.com/blog/2033046)
 * [一个Java对象到底占多大内存？](http://mp.weixin.qq.com/s?__biz=MzA4NDc2MDQ1Nw==&mid=2650237919&idx=1&sn=a91f281e2dd2d27d6e15292002e3c5a5&scene=0#wechat_redirect)
 * [69个经典 Spring 面试题和答案](http://www.codeceo.com/article/69-spring-interview-questions.html)
+* [Spring MVC 4.2.4.RELEASE 中文文档](https://linesh.gitbooks.io/spring-mvc-documentation-linesh-translation/content/)
+* [《Spring Boot参考指南》](https://www.gitbook.com/book/qbgbook/spring-boot-reference-guide-zh/details)
+* [jfinal官网](http://www.jfinal.com/)
 * [数据库连接池优化配置(druid,dbcp,c3p0)](http://blog.csdn.net/hetaohappy/article/details/51861015)
 * [Java中的多线程你只要看这一篇就够了](http://www.importnew.com/21089.html)
 * [Java代码优化](http://www.importnew.com/21224.html)
 * [Java GC的那些事（1）](http://blog.jobbole.com/105044/)
+* [Java GC 的那些事（2）](http://blog.jobbole.com/105119/)
+* [JVM监控与调优](http://www.importnew.com/21441.html)
 * [高并发Java（1）：前言](http://www.importnew.com/21229.html)
 * [高并发Java（2）：多线程基础](http://www.importnew.com/21239.html)
 * [高并发Java（3）：Java内存模型和线程安全](http://www.importnew.com/21245.html)
@@ -53,12 +62,16 @@
 * [高并发Java（8）：NIO和AIO](http://www.importnew.com/21341.html)
 * [高并发Java（9）：锁的优化和注意事项](http://www.importnew.com/21353.html)
 * [高并发Java（10）：JDK8对并发的新支持](http://www.importnew.com/21358.html)
+* [高性能数据库连接池的内幕](http://mp.weixin.qq.com/s?__biz=MzI3MzEzMDI1OQ==&mid=2651814835&idx=1&sn=cb775d3926ce39d12fa420a292c1f83d&scene=0#wechat_redirect)
+
 
 #####JAVASCRIPT
 * [javascript获取光标位置与在光标位置插入内容](http://www.cnblogs.com/johnvajicic/archive/2013/05/17/3084674.html)
+* [javascript高阶函数的应用](http://web.jobbole.com/87806/)
+
 
 * [Vue.js](http://cn.vuejs.org/guide/)
-
+* [快速搭建 Node.js/io.js 开发环境以及加速 npm](http://fengmk2.com/blog/2014/03/node-env-and-faster-npm.html)
 
 #####数据库
 * [21分钟 MySQL 入门教程](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html)
