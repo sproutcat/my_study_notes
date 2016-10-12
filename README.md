@@ -1,7 +1,7 @@
 # my_study_notes
 我的学习笔记（用MD编写）
 
-建设中……
+更新时间：2016-10-12
 
 #####综合
 * [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
