@@ -3,6 +3,13 @@
 ###一、配置Linux系统下Oracle的安装环境
 
 ######1、安装Java jdk
+
+请参照：
+
+[centos6.5系统下安装jdk1.7](../java/linux_jdk_install.md)
+
+[Linux 下安装配置 JDK1.7](https://my.oschina.net/boltwu/blog/403555)
+
 ######2、安装前准备
 	
 从官网下载Oracle 11g安装包，根据Linux系统类型选择安装介质，我选择的是linux.x64_11gR2，它分为两个zip压缩包
@@ -50,7 +57,7 @@
 
 下载依赖包后，复制到Linux系统中，使用命令
 
-	rpm –ivh [路径]/*.rpm
+	rpm -ivh [路径]/*.rpm
 	
 进行安装。
 
@@ -66,7 +73,7 @@
 
 查看磁盘空间，Oracle 11g R2 x64企业版的磁盘空间要求4.35GB以上。
 
-	df –h
+	df -h
 
 ######5、创建Oracle组和用户帐户
 
@@ -123,7 +130,7 @@
 
 切换到oracle用户
 
-	su – oracle
+	su - oracle
 
 编辑.bash_profile文件
 
