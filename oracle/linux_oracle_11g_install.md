@@ -1,4 +1,4 @@
-#Linux下Oracle 11G的安装过程
+#Linux下安装Oracle 11G
 
 ###一、配置Linux系统下Oracle的安装环境
 
@@ -6,9 +6,8 @@
 
 请参照：
 
-[centos6.5系统下安装jdk1.7](../java/linux_jdk_install.md)
-
-[Linux 下安装配置 JDK1.7](https://my.oschina.net/boltwu/blog/403555)
+* [centos6.5系统下安装jdk1.7](../java/linux_jdk_install.md)
+* [Linux 下安装配置 JDK1.7](https://my.oschina.net/boltwu/blog/403555)
 
 ######2、安装前准备
 	
@@ -151,6 +150,14 @@
 	export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib;
 	export CLASSPATH=
 	$ORACLE_HOME/JRE:$ORACLE_HOME/jlib:$ORACLE_HOME/rdbms/jlib;
+	
+输入命令立即生效：
+
+	source .bash_profile
+	
+查看环境变量是否完成
+
+	env | grep ORA
 	
 ###二、安装Oracle软件与数据库
 
