@@ -41,7 +41,7 @@
 ###### 8、
 
 
-####综合
+#### 综合
 
 * [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
 * [Web全栈技术指南](https://coin8086.gitbooks.io/getfullstack/content/)
@@ -68,14 +68,14 @@
 * [把《编程珠玑》读薄](http://www.hawstein.com/posts/make-thiner-programming-pearls.html)
 
 
-#####数据结构与算法
+##### 数据结构与算法
 
 * [算法分析的正确姿势](http://www.cnblogs.com/absfree/p/5464779.html)
 * [算法精粹](https://www.gitbook.com/book/soulmachine/algorithm-essentials/details)
 * [数据结构与算法设计](https://suanfa.herokuapp.com/0preface/)
 
 
-#####JAVA
+##### JAVA
 
 * [Thinking in Java (Java 编程思想)](https://www.gitbook.com/book/quanke/think-in-java/details)
 * [Java后端工程师技能树](http://www.rowkey.me/blog/2016/06/17/java-skill-tree/)
@@ -107,7 +107,7 @@
 * [高性能数据库连接池的内幕](http://mp.weixin.qq.com/s?__biz=MzI3MzEzMDI1OQ==&mid=2651814835&idx=1&sn=cb775d3926ce39d12fa420a292c1f83d&scene=0#wechat_redirect)
 
 
-#####JAVASCRIPT
+##### JAVASCRIPT
 
 * [javascript获取光标位置与在光标位置插入内容](http://www.cnblogs.com/johnvajicic/archive/2013/05/17/3084674.html)
 * [javascript高阶函数的应用](http://web.jobbole.com/87806/)
@@ -116,7 +116,7 @@
 * [Vue.js](http://cn.vuejs.org/guide/)
 * [快速搭建 Node.js/io.js 开发环境以及加速 npm](http://fengmk2.com/blog/2014/03/node-env-and-faster-npm.html)
 
-#####数据库
+##### 数据库
 
 * [21分钟 MySQL 入门教程](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html)
 * [Oracle 表和表数据恢复](http://www.cnblogs.com/java-class/p/5817217.html)
@@ -126,7 +126,7 @@
 * [Linux下安装Oracle 11G](oracle/linux_oracle_11g_install.md)
 
 
-#####LINUX
+##### LINUX
 
 * [全栈必备Linux 基础](http://blog.jobbole.com/106827/)
 * [鳥哥的Linux私房菜](http://linux.vbird.org/)
@@ -136,7 +136,7 @@
 * [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/)
 
 
-#####其他语言
+##### 其他语言
 
 * Python教程
 [3.x版](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
