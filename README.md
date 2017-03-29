@@ -31,20 +31,19 @@
 ###### 6、修改HOST文件（为了用google）
 
 >请参照开源项目[hosts](https://github.com/racaljk/hosts)
-
 >如果有些网站还是不能访问，可找一些代理工具翻墙，这里推荐使用[蓝灯](https://github.com/getlantern/lantern)。
-
 >翻墙后可下载谷歌浏览器，方便做前端调试。
 
 ###### 7、安装版本控制工具
 
 >git客户端工具推荐使用[git](https://git-scm.com/download/win)或者[SourceTree](https://www.sourcetreeapp.com/)
-
 >svn
 
 ###### 8、IDEA的安装与配置
 
+>请下下载[IDEA](https://www.jetbrains.com/idea/download/download-thanks.html)，再进行安装。
 >
+
 
 
 #### 综合
@@ -52,8 +51,7 @@
 * [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
 * [Web全栈技术指南](https://coin8086.gitbooks.io/getfullstack/content/)
 * [常用快捷键大全](http://www.cnblogs.com/best/p/5818597.html)
-* 新兵训练营课程——环境与工具（git、maven）
-	[（上）](http://weibo.com/p/1001643874239169320051)
+* 新兵训练营课程——环境与工具（git、maven） [（上）](http://weibo.com/p/1001643874239169320051)
 	[（下）](http://weibo.com/p/1001643874240234698089)
 * [Git book](https://git-scm.com/book/zh/v2)
 * [Git操作指南](http://www.rowkey.me/blog/2016/01/10/git-usage/)
@@ -74,11 +72,15 @@
 * [把《编程珠玑》读薄](http://www.hawstein.com/posts/make-thiner-programming-pearls.html)
 
 
+
+
 ##### 数据结构与算法
 
 * [算法分析的正确姿势](http://www.cnblogs.com/absfree/p/5464779.html)
 * [算法精粹](https://www.gitbook.com/book/soulmachine/algorithm-essentials/details)
 * [数据结构与算法设计](https://suanfa.herokuapp.com/0preface/)
+
+
 
 
 ##### JAVA
@@ -113,6 +115,7 @@
 * [高性能数据库连接池的内幕](http://mp.weixin.qq.com/s?__biz=MzI3MzEzMDI1OQ==&mid=2651814835&idx=1&sn=cb775d3926ce39d12fa420a292c1f83d&scene=0#wechat_redirect)
 
 
+
 ##### JAVASCRIPT
 
 * [javascript获取光标位置与在光标位置插入内容](http://www.cnblogs.com/johnvajicic/archive/2013/05/17/3084674.html)
@@ -122,6 +125,8 @@
 * [Vue.js](http://cn.vuejs.org/guide/)
 * [快速搭建 Node.js/io.js 开发环境以及加速 npm](http://fengmk2.com/blog/2014/03/node-env-and-faster-npm.html)
 
+
+
 ##### 数据库
 
 * [21分钟 MySQL 入门教程](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html)
@@ -130,6 +135,7 @@
 * [Oracle 常用函数](http://www.cnblogs.com/java-class/p/5199145.html)
 * [ORACLE SQL 性能调优日常积累](http://www.cnblogs.com/java-class/p/4555767.html)
 * [Linux下安装Oracle 11G](oracle/linux_oracle_11g_install.md)
+
 
 
 ##### LINUX
