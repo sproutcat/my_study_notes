@@ -30,13 +30,13 @@
 
 ###### 6、修改HOST文件（为了用google）
 
->请参照开源项目[hosts](https://github.com/racaljk/hosts)
->如果有些网站还是不能访问，可找一些代理工具翻墙，这里推荐使用[蓝灯](https://github.com/getlantern/lantern)。
+>请参照开源项目[hosts](https://github.com/racaljk/hosts)。<br>
+>如果有些网站还是不能访问，可找一些代理工具翻墙，这里推荐使用[蓝灯](https://github.com/getlantern/lantern)。<br>
 >翻墙后可下载谷歌浏览器，方便做前端调试。
 
 ###### 7、安装版本控制工具
 
->git客户端工具推荐使用[git](https://git-scm.com/download/win)或者[SourceTree](https://www.sourcetreeapp.com/)
+>git客户端工具推荐使用[git](https://git-scm.com/download/win)或者[SourceTree](https://www.sourcetreeapp.com/)<br>
 >svn
 
 ###### 8、IDEA的安装与配置
