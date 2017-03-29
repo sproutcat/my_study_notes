@@ -34,11 +34,17 @@
 
 >如果有些网站还是不能访问，可找一些代理工具翻墙，这里推荐使用[蓝灯](https://github.com/getlantern/lantern)。
 
-###### 7、IDEA的安装与配置
+>翻墙后可下载谷歌浏览器，方便做前端调试。
+
+###### 7、安装版本控制工具
+
+>git客户端工具推荐使用[git](https://git-scm.com/download/win)或者[SourceTree](https://www.sourcetreeapp.com/)
+
+>svn
+
+###### 8、IDEA的安装与配置
 
 >
-
-###### 8、
 
 
 #### 综合
