@@ -1,52 +1,13 @@
 # my_study_notes
 我的学习笔记（用MD编写）
 
-更新时间：2017-03-29
-
-#### WINDOWS下开发环境搭建
-
->该开发环境的搭建，主要针对于WINDOWS 64位机器侠的JAVA后端开发。
->如果喜好用IDEA作为JAVA的开发工具，建议安装jdk8。
-
-###### 1、JAVA安装与环境变量配置
-
->
-
-###### 2、MAVEN安装与环境变量配置
-
->
-
-###### 3、ORACLE11g安装，及PLSQL安装与配置
-
->
-
-###### 4、MYSQL安装配置
-
->
-
-###### 5、安装Sublime Text3（个人喜好，可略过）
-
->请参照文章：[如何优雅地使用Sublime Text3](http://jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/)
-
-###### 6、修改HOST文件（为了用google）
-
->请参照开源项目[hosts](https://github.com/racaljk/hosts)。<br>
->如果有些网站还是不能访问，可找一些代理工具翻墙，这里推荐使用[蓝灯](https://github.com/getlantern/lantern)。<br>
->翻墙后可下载谷歌浏览器，方便做前端调试。
-
-###### 7、安装版本控制工具
-
->git客户端工具推荐使用[git](https://git-scm.com/download/win)或者[SourceTree](https://www.sourcetreeapp.com/)<br>
->svn
-
-###### 8、IDEA的安装与配置
-
->请下下载[IDEA](https://www.jetbrains.com/idea/download/download-thanks.html)，再进行安装。
->
+更新时间：2017-06-05
 
 
 
 #### 综合
+
+* [WINDOWS下开发环境搭建](operating_system/win_dev_conf.md)
 
 * [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
 * [Web全栈技术指南](https://coin8086.gitbooks.io/getfullstack/content/)
@@ -121,7 +82,7 @@
 * [javascript获取光标位置与在光标位置插入内容](http://www.cnblogs.com/johnvajicic/archive/2013/05/17/3084674.html)
 * [javascript高阶函数的应用](http://web.jobbole.com/87806/)
 
-
+* [angular.js 1.x官网](https://angularjs.org/), [angular.js中文教程](http://www.runoob.com/angularjs/angularjs-tutorial.html)
 * [Vue.js](http://cn.vuejs.org/guide/)
 * [快速搭建 Node.js/io.js 开发环境以及加速 npm](http://fengmk2.com/blog/2014/03/node-env-and-faster-npm.html)
 
