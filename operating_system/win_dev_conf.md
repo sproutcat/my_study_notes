@@ -13,7 +13,7 @@
 
 >如图：
 
-![设置windows环境变量](static/imgs/win_env_var.png)
+![设置windows环境变量](../static/imgs/win_env_var.png)
 
 >1、配置JAVA_HOME
 
