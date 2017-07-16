@@ -1,3 +1,38 @@
+
+var util = (function () {
+    return {
+        /**
+         * 高频执行事件/方法的防抖
+         * @param Function fn 		延时调用函数
+         * @param Number delay 		延迟多长时间
+         * @param Number atleast 	至少多长时间触发一次
+         * @return Function 		延迟执行的方法
+         */
+        debounce : function(fn, delay, atleast) {
+            var timer = null;
+            var previous = null;
+
+            return function () {
+                var me = this, args = arguments;
+                var now = +new Date();
+
+                if ( !previous ) previous = now;
+
+                if ( now - previous > atleast ) {
+                    fn.apply(me, args);
+                    // 重置上一次开始时间为本次结束时间
+                    previous = now;
+                } else {
+                    clearTimeout(timer);
+                    timer = setTimeout(function() {
+                        fn.apply(me, args);
+                    }, delay);
+                }
+            }
+        }
+    }
+})();
+
 /**
  *
  * 延迟执行，监听整体界面的滚动，目标对象可见时，触发事件
@@ -7,7 +42,7 @@
  *
  */
 (function($) {
-    var index = 0;
+    var index = 0, $window = $(window);
     $.fn.scrollLoad = function(fn) {
         if(!fn) return false;
         var $me = $(this), scrollId = "scrollLoad" + (index++),
@@ -23,7 +58,7 @@
             $window.unbind("scroll." + scrollId);
         });
 
-        var $window = $(window).on("scroll." + scrollId, util.debounce(scrollLoad, 100, 500));
+        $window.on("scroll." + scrollId, util.debounce(scrollLoad, 100, 500));
         scrollLoad();
 
         function scrollLoad() {
