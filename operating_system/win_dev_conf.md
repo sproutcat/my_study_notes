@@ -40,8 +40,10 @@
 
 ### 3、NODE.js安装与环境变量配置
 
->
->
+>下现在安装包[node-v6.11.1-x64](https://nodejs.org/dist/v6.11.1/node-v6.11.1-x64.msi)（安装的时候，默认设置了环境变量，可以略过下一步）;<br>
+>建议安装路径设置在非系统盘（如：D:\Program Files\nodejs），这样重装系统后，只想要配置环境变量即可
+
+    PATH    D:\Program Files\nodejs\node.exe;C:\Users\Administrator\AppData\Roaming\npm;
 
 ### 4、ORACLE11g安装，及PLSQL安装与配置
 
@@ -69,5 +71,5 @@
 ### 9、IDEA的安装与配置
 
 >请下载[IDEA](https://www.jetbrains.com/idea/download/download-thanks.html)，再进行安装。
->
+>破解
 
