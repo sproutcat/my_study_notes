@@ -38,30 +38,35 @@
     MAVEN_HOME  D:\tools\apache-maven-3.3.9
     PATH        %MAVEN_HOME%\bin;
 
-### 3、ORACLE11g安装，及PLSQL安装与配置
+### 3、NODE.js安装与环境变量配置
+
+>
+>
+
+### 4、ORACLE11g安装，及PLSQL安装与配置
 
 >
 
-### 4、MYSQL安装配置
+### 5、MYSQL安装配置
 
 >
 
-### 5、安装Sublime Text3（个人喜好，可略过）
+### 6、安装Sublime Text3（个人喜好，可略过）
 
 >请参照文章：[如何优雅地使用Sublime Text3](http://jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/)
 
-### 6、修改HOST文件（为了用google）
+### 7、修改HOST文件（科学上网）
 
 >请参照开源项目[hosts](https://github.com/racaljk/hosts)。<br>
 >如果有些网站还是不能访问，可找一些代理工具翻墙，这里推荐使用[蓝灯](https://github.com/getlantern/lantern)。<br>
 >翻墙后可下载谷歌浏览器，方便做前端调试。
 
-### 7、安装版本控制工具
+### 8、安装版本控制工具
 
 >git客户端工具推荐使用[git](https://git-scm.com/download/win)或者[SourceTree](https://www.sourcetreeapp.com/)<br>
 >svn
 
-### 8、IDEA的安装与配置
+### 9、IDEA的安装与配置
 
 >请下载[IDEA](https://www.jetbrains.com/idea/download/download-thanks.html)，再进行安装。
 >
