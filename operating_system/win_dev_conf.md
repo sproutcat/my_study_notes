@@ -45,12 +45,20 @@
 
     PATH    D:\Program Files\nodejs\node.exe;C:\Users\Administrator\AppData\Roaming\npm;
 
+>其他配置可参照[快速搭建 Node.js 开发环境以及加速 npm](https://cnodejs.org/topic/5338c5db7cbade005b023c98)
+
+>安装gulp插件
+
+    npm install -g gulp --registry=https://registry.npm.taobao.org
+
+
 ### 4、ORACLE11g安装，及PLSQL安装与配置
 
 >
 
 ### 5、MYSQL安装配置
 
+>下载压缩包的版本[mysql5.6]()，解压到硬盘（这里解压的D盘）；<br>
 >
 
 ### 6、安装Sublime Text3（个人喜好，可略过）
