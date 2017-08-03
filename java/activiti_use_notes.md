@@ -1,7 +1,22 @@
 Activiti 使用笔记
 ===========================
 
-Activiti基础必知必会
+一、参考文章
+-----------------------------------------------------------
+
+* [Activiti 原来分析](http://blog.csdn.net/rosten/article/details/19337285)
+* [谈谈Activiti 中流程对象之间的关系](http://www.kafeitu.me/activiti/2012/08/09/activiti-objects.html)
+* [Activiti 5.22 框架数据库设计说明](http://lucaslz.com/2016/11/15/java/activiti/activiti-db-5-22/)
+* [工作流引擎Activiti使用总结](http://www.kafeitu.me/activiti/2012/03/22/workflow-activiti-action.html)
+* [也谈一下Activiti工作流节点的自由跳转](http://blog.csdn.net/bluejoe2000/article/details/41778737)
+* [Activti跳过中间节点的helloworld实例程序](http://blog.csdn.net/songzheng_741/article/details/17289633)
+* [Activiti从当前任务任意回退至已审批任务](http://blog.csdn.net/bluejoe2000/article/details/39994647)
+* [关于activiti驳回等功能的封装](http://blog.csdn.net/aochuanguying/article/details/7594197)
+* [优雅的实现Activiti动态调整流程（自由跳转、前进、后退、分裂、前加签、后加签等），含范例代码！](http://blog.csdn.net/bluejoe2000/article/details/42234847)
+* [Activiti 工作流会签开发设计思路](http://man1900.iteye.com/blog/1607753)
+
+
+二、基础必知必会
 ---------------------------
 
 * 一个插件：会安装和配置
@@ -82,6 +97,41 @@ Activiti基础必知必会
 		IdentityService		组织机构管理
 		FormService			任务表单管理
 		ManagerService		定时器任务服务
+
+
+
+三、多实例实现会签
+------------------------------------------------------
+
+* 会签说明
+
+	会签，是指多个人员针对同一个事务进行协商处理，共同签署决定一件事情。 
+	在工作流中会签，是指多个人员在同一个环节进行处理，同一环节的有多个处理人并行处理，按照配置规则，固定比例的人员办理完成后即可继续扭转至下一环节。
+
+* 会签实现
+
+	目前Activiti支持自定义配置完成比例，即 一定比例的人员 办理完成之后 即可扭转至下一步，这样就可以实现 多人处理一人审批即可通过和全部人员审批后才可通过，两种处理形式，配置方式如下：
+
+		<userTask id="sid-1D9A88B5-D0DC-4056-A5DF-179D7220B76F" 
+		          name="生产部领导会签" 
+		          activiti:assignee="${assignee}" 
+		          activiti:candidateGroups="生产部领导">
+			<multiInstanceLoopCharacteristics isSequential="false" 
+		                                       activiti:collection="${assignees}" 
+		                                       activiti:elementVariable="assignee">
+				<completionCondition>${nrOfCompletedInstances/nrOfInstances>0}</completionCondition>
+			</multiInstanceLoopCharacteristics>
+		</userTask>
+
+	说明：
+
+	>1：此配置依赖外部传入流程参数 assignees，类型为 List<String>，此为所有参与审批的人员集合。<br>
+	>2：activiti:elementVariable="assignee" 为内部处理参数，工作流引擎循环遍历处理这些人员时使用assignee变量来存储每一个人员信息。<br>
+	>3：activiti:assignee="${assignee}"，执行审批人，此变量不需外部传入，对应上述第二点的内部变量。<br>
+	>4：activiti:candidateGroups="生产部领导"，可不用配置，此处有配置是用来解析环节会签人员使用。<br>
+	>5：${nrOfCompletedInstances/nrOfInstances>0} ，配置完成比例，此处配置为>0,代表任意一人处理后即可扭转。<br>
+	>6：isSequential="false" ，代表并行处理。
+
 
 
 
