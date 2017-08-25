@@ -4,7 +4,7 @@ Activiti 使用笔记
 一、参考文章
 -----------------------------------------------------------
 
-* [Activiti 原来分析](http://blog.csdn.net/rosten/article/details/19337285)
+* [Activiti 源码分析](http://jiangwenfeng762.iteye.com/blog/1338553)
 * [谈谈Activiti 中流程对象之间的关系](http://www.kafeitu.me/activiti/2012/08/09/activiti-objects.html)
 * [Activiti 5.22 框架数据库设计说明](http://lucaslz.com/2016/11/15/java/activiti/activiti-db-5-22/)
 * [工作流引擎Activiti使用总结](http://www.kafeitu.me/activiti/2012/03/22/workflow-activiti-action.html)
@@ -125,12 +125,12 @@ Activiti 使用笔记
 
 	说明：
 
-	>1：此配置依赖外部传入流程参数 assignees，类型为 List<String>，此为所有参与审批的人员集合。<br>
-	>2：activiti:elementVariable="assignee" 为内部处理参数，工作流引擎循环遍历处理这些人员时使用assignee变量来存储每一个人员信息。<br>
-	>3：activiti:assignee="${assignee}"，执行审批人，此变量不需外部传入，对应上述第二点的内部变量。<br>
-	>4：activiti:candidateGroups="生产部领导"，可不用配置，此处有配置是用来解析环节会签人员使用。<br>
-	>5：${nrOfCompletedInstances/nrOfInstances>0} ，配置完成比例，此处配置为>0,代表任意一人处理后即可扭转。<br>
-	>6：isSequential="false" ，代表并行处理。
+	* 1：此配置依赖外部传入流程参数 assignees，类型为 List<String>，此为所有参与审批的人员集合。<br>
+	* 2：activiti:elementVariable="assignee" 为内部处理参数，工作流引擎循环遍历处理这些人员时使用assignee变量来存储每一个人员信息。<br>
+	* 3：activiti:assignee="${assignee}"，执行审批人，此变量不需外部传入，对应上述第二点的内部变量。<br>
+	* 4：activiti:candidateGroups="生产部领导"，可不用配置，此处有配置是用来解析环节会签人员使用。<br>
+	* 5：${nrOfCompletedInstances/nrOfInstances>0} ，配置完成比例，此处配置为>0,代表任意一人处理后即可扭转。<br>
+	* 6：isSequential="false" ，代表并行处理。
 
 
 

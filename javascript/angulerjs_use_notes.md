@@ -17,7 +17,7 @@ anguler.js 1.x使用笔记
 	
 改变作用域内的某个值(如，score内有个title属性)：
 
-	scope.$apply(function(){
+	scope.$apply(function() {
 		scope.title += " 1111";
 	});
 
