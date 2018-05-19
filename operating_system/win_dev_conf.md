@@ -74,7 +74,7 @@
 ### 8、安装版本控制工具
 
 >git客户端工具推荐使用[git](https://git-scm.com/download/win)或者[SourceTree](https://www.sourcetreeapp.com/)<br>
->svn
+
 
 ### 9、IDEA的安装与配置
 

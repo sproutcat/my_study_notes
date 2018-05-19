@@ -14,6 +14,7 @@ Activiti 使用笔记
 * [关于activiti驳回等功能的封装](http://blog.csdn.net/aochuanguying/article/details/7594197)
 * [优雅的实现Activiti动态调整流程（自由跳转、前进、后退、分裂、前加签、后加签等），含范例代码！](http://blog.csdn.net/bluejoe2000/article/details/42234847)
 * [Activiti 工作流会签开发设计思路](http://man1900.iteye.com/blog/1607753)
+* [Activiti 实战篇 小试牛刀](http://blog.csdn.net/qq_30739519/article/details/51166062?spm=5176.100239.blogcont58641.3.xczVDw)
 
 
 二、基础必知必会
@@ -125,11 +126,24 @@ Activiti 使用笔记
 
 	说明：
 
-	* 1：此配置依赖外部传入流程参数 assignees，类型为 List<String>，此为所有参与审批的人员集合。<br>
-	* 2：activiti:elementVariable="assignee" 为内部处理参数，工作流引擎循环遍历处理这些人员时使用assignee变量来存储每一个人员信息。<br>
-	* 3：activiti:assignee="${assignee}"，执行审批人，此变量不需外部传入，对应上述第二点的内部变量。<br>
-	* 4：activiti:candidateGroups="生产部领导"，可不用配置，此处有配置是用来解析环节会签人员使用。<br>
-	* 5：${nrOfCompletedInstances/nrOfInstances>0} ，配置完成比例，此处配置为>0,代表任意一人处理后即可扭转。<br>
+	* 1：此配置依赖外部传入流程参数 assignees，类型为 List<String>，此为所有参与审批的人员集合。
+
+	* 2：activiti:elementVariable="assignee" 为内部处理参数，工作流引擎循环遍历处理这些人员时使用assignee变量来存储每一个人员信息。
+
+	* 3：activiti:assignee="${assignee}"，执行审批人，此变量不需外部传入，对应上述第二点的内部变量。
+
+	* 4：activiti:candidateGroups="生产部领导"，可不用配置，此处有配置是用来解析环节会签人员使用。
+	
+	* 5：**${nrOfCompletedInstances/nrOfInstances>0}**，配置完成比例，此处配置为>0,代表任意一人处理后即可扭转。
+
+		* **nrOfInstances** 实例总数。
+
+		* **nrOfCompletedInstances** 当前还没有完成的实例nr是number单词缩写。
+
+		* **loopCounter** 已经循环的次数。
+
+		* **nrOfActiveInstances** 已经完成的实例个数。
+
 	* 6：isSequential="false" ，代表并行处理。
 
 

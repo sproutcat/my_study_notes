@@ -7,6 +7,7 @@ GIT使用笔记（命令行）
 * [GIT BOOK](https://git-scm.com/book/zh/v2)
 * [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 * [一篇文章，教你学会Git](https://juejin.im/post/599e14875188251240632702)
+* [Git飞行规则 (Flight Rules)](https://github.com/k88hudson/git-flight-rules/blob/master/README_zh-CN.md)
 
 
  标签（tag）
@@ -39,10 +40,5 @@ GIT使用笔记（命令行）
 删除远程标签的命令：
 
 	git push origin :refs/tags/tagName
-
-
-
-
-
 
 
