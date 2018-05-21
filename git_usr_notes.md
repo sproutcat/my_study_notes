@@ -41,4 +41,22 @@ GIT使用笔记（命令行）
 
 	git push origin :refs/tags/tagName
 
+ 添加版本控制（add）
+--------------------------------
+
+添加一个文件的版本控制
+
+	git add filename.txt
+
+ 提交（commit）
+--------------------------------
+
+提交一个文件
+
+	git commit filename.txt -m 提交一个文件
+
+
+
+
+
 
