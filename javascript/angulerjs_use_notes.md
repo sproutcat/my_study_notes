@@ -9,6 +9,7 @@ anguler.js 1.x使用笔记
 * [Angular.js中文教程](http://www.runoob.com/angularjs/angularjs-tutorial.html)
 * [Angular.js中文社区](http://www.angularjs.cn/)  [AngularJS快速开始](http://www.angularjs.cn/A002)
 * [Angular规范（中文版）](https://github.com/johnpapa/angular-styleguide/blob/5958711f26413c55a731e9597020d721d5a1f7c4/a1/i18n/zh-CN.md#%E6%89%8B%E5%8A%A8%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5)
+* AngularJs 自定义指令 [上](http://www.cnblogs.com/lvdabao/p/3391634.html) [中](http://www.cnblogs.com/lvdabao/p/3398044.html) [下](http://www.cnblogs.com/lvdabao/p/3407424.html)
 
 ### 获取angular的作用域
 
@@ -23,5 +24,11 @@ anguler.js 1.x使用笔记
 	});
 
 ### 手动插入DOM
+
+	var tag = "<div>my {{title}}</div>";
+	scope.title = "test";
+    tag = $compile(tag)($scope);
+    $("#test").html(tag);
+    
 
 
