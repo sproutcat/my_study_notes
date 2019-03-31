@@ -15,7 +15,7 @@ Activiti 使用笔记
 * [优雅的实现Activiti动态调整流程（自由跳转、前进、后退、分裂、前加签、后加签等），含范例代码！](http://blog.csdn.net/bluejoe2000/article/details/42234847)
 * [Activiti 工作流会签开发设计思路](http://man1900.iteye.com/blog/1607753)
 * [Activiti 实战篇 小试牛刀](http://blog.csdn.net/qq_30739519/article/details/51166062?spm=5176.100239.blogcont58641.3.xczVDw)
-
+* [Activiti开发案例之创建用户表视图实现关联查询](https://blog.52itstyle.vip/archives/3706/)
 
 二、基础必知必会
 ---------------------------
@@ -36,7 +36,7 @@ Activiti 使用笔记
 
 	* 通用数据表说明：
 
-			act_ge_bytearray		二进制数据表
+			act_ge_bytearray		二进制数据表，通用的流程定义和流程资源
 			act_ge_property			属性数据表存储整个流程引擎级别的数据,初始化表结构时，会默认插入三条记录
 
 	* 历史数据表说明：
@@ -77,7 +77,9 @@ Activiti 使用笔记
 			ACT_EVT_LOG				事件日志表
 			ACT_PROCDEF_INFO		流程定义扩展表
 
-	详细表结构请看[Activiti 5.22 框架数据库设计说明](http://lucaslz.com/2016/11/15/java/activiti/activiti-db-5-22/)
+	* 详细表结构请看
+	    * [Activiti 5.22 框架数据库设计说明](http://lucaslz.com/2016/11/15/java/activiti/activiti-db-5-22/)
+	    * [Activiti 开发案例之数据库表结构说明](https://blog.52itstyle.vip/archives/3699/)
 
 * 7项基本操作：
 
