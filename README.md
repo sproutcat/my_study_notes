@@ -10,6 +10,8 @@
 
 * [WINDOWS下开发环境搭建](operating_system/win_dev_conf.md)
 
+* [为了效率，扎克伯格的26张PPT](https://mp.weixin.qq.com/s/fhqg1ntQoPYxC-5KDQk3jQ)
+
 * [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
 * [Web全栈技术指南](https://coin8086.gitbooks.io/getfullstack/content/)
 * [常用快捷键大全](http://www.cnblogs.com/best/p/5818597.html)
@@ -33,8 +35,10 @@
 * [缓存更新的套路](http://coolshell.cn/articles/17416.html)
 * [把《编程珠玑》读薄](http://www.hawstein.com/posts/make-thiner-programming-pearls.html)
 * [如何运用powerDesigner生成数据库文件或者javaBean](http://blog.sina.com.cn/s/blog_a2f078300101gyjr.html)
+* [Web安全学习笔记](https://websec.readthedocs.io/zh/latest/index.html)
 
-
+* [folium:地图数据可视化库](https://mp.weixin.qq.com/s?__biz=MzI1MTE2ODg4MA==&mid=2650070745&idx=1&sn=098dc5b2f72ed0994a4defad59d46915&chksm=f1f76fc6c680e6d0f844766a7fafd992b5950e12ffbcc37170ec606c6064a4f0c24eeebb2161&xtrack=1&scene=0&subscene=131&clicktime=1556934512&ascene=7&devicetype=android-28&version=27000437&nettype=cmnet&abtest_cookie=BQABAAgACgALABIAEwAGAJ2GHgBcmR4Ax5keANyZHgDhmR4A+ZkeAAAA&lang=zh_CN&pass_ticket=2XAnxDvtRw8J7jc5QZ68UP24scZ8fdkQ4HEZabbO3L/vNk2ErYuANHPtdTeVtuCl&wx_header=1&tdsourcetag=s_pcqq_aiomsg)
+* [folium 官方文档](https://python-visualization.github.io/folium)
 
 ##### 数据结构与算法
 
@@ -76,7 +80,7 @@
 * [高并发Java（10）：JDK8对并发的新支持](http://www.importnew.com/21358.html)
 * [高性能数据库连接池的内幕](http://mp.weixin.qq.com/s?__biz=MzI3MzEzMDI1OQ==&mid=2651814835&idx=1&sn=cb775d3926ce39d12fa420a292c1f83d&scene=0#wechat_redirect)
 * [Jasper Report 6.x使用经验](java/Jasper_Report/Jasper_Studio_Tutorial.md)
-
+* [互联网 Java 工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java)
 
 ##### JAVASCRIPT
 
