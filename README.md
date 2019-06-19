@@ -40,13 +40,18 @@
 * [folium:地图数据可视化库](https://mp.weixin.qq.com/s?__biz=MzI1MTE2ODg4MA==&mid=2650070745&idx=1&sn=098dc5b2f72ed0994a4defad59d46915&chksm=f1f76fc6c680e6d0f844766a7fafd992b5950e12ffbcc37170ec606c6064a4f0c24eeebb2161&xtrack=1&scene=0&subscene=131&clicktime=1556934512&ascene=7&devicetype=android-28&version=27000437&nettype=cmnet&abtest_cookie=BQABAAgACgALABIAEwAGAJ2GHgBcmR4Ax5keANyZHgDhmR4A+ZkeAAAA&lang=zh_CN&pass_ticket=2XAnxDvtRw8J7jc5QZ68UP24scZ8fdkQ4HEZabbO3L/vNk2ErYuANHPtdTeVtuCl&wx_header=1&tdsourcetag=s_pcqq_aiomsg)
 * [folium 官方文档](https://python-visualization.github.io/folium)
 
+* [揭秘！现代IM系统的消息架构如何设计？](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247490180&idx=1&sn=5006d05ba1655bf37578f03e9d0f14f3&chksm=e929278bde5eae9dc12abbd08ec990c922fe5eaebbdf338e50218c7941d1bfc376b0c4a7f6ea&xtrack=1&scene=90&subscene=93&sessionid=1557101503&clicktime=1557101505&ascene=56&devicetype=android-28&version=27000439&nettype=ctnet&abtest_cookie=BAABAAoACwASABMABQAjlx4AVpkeAMCZHgDcmR4A+pkeAAAA&lang=zh_CN&pass_ticket=r2G8R5Ta0s340F7FR19C3lEQycZ1SmbCx0qYsCYdfWbmOLNKjS8dSTFqS/qW4f03&wx_header=1)
+
+* [《图解http》阅读笔记--web及网络基础](https://hanyajun.com/network-basis/http_tcp_ip/)
+* [HTTP API 认证授权术](https://coolshell.cn/articles/19395.html)
+
 ##### 数据结构与算法
 
 * [算法分析的正确姿势](http://www.cnblogs.com/absfree/p/5464779.html)
 * [算法精粹](https://www.gitbook.com/book/soulmachine/algorithm-essentials/details)
 * [数据结构与算法设计](https://suanfa.herokuapp.com/0preface/)
 
-
+* [中高级前端」窥探数据结构的世界- ES6版](https://juejin.im/post/5cd1ab3df265da03587c142a)
 
 
 ##### JAVA
