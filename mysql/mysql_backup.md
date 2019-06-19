@@ -9,26 +9,45 @@
     
     echo MySQL 备份开始
     
+    :: =======================================================================
+    :: =============================基础变量设置 begin========================
+    :: =======================================================================
+    
     :: 保存备份天数
     set backup_day=15
     
     :: 备份保存路径
     set backup_dir=D:\mysql_backup
     
-    :: 日期
+    :: 备份时间
     set backup_date=%date:~0,4%%date:~5,2%%date:~8,2%_%time:~0,2%%time:~3,2%%time:~6,2%
     
     :: 备份工具（注意：如 mysqldump 不在系统的环境变量中，必须要配置绝对路径）
     set tool=mysqldump
     
-    :: 用户名
+    :: 数据库地址
+    set mysql_host=127.0.0.1
+    
+    :: 数据库端口
+    set mysql_port=3306
+    
+    :: 数据库用户名
     set username=root
     
-    :: 密码
+    :: 数据库密码
     set password=root
     
-    :: 将要备份的数据库
-    set database_name=datasystem
+    :: 将要备份的数据库名称
+    set database_name=test
+    
+    :: =======================================================================
+    :: =============================基础变量设置 end  ========================
+    :: =======================================================================
+    
+    
+    :: =======================================================================
+    :: =============================数据备份脚本 begin========================
+    :: =======================================================================
     
     :: 如果文件夹不存在则创建
     if not exist %backup_dir% (
@@ -36,9 +55,10 @@
     	md %backup_dir%
     )
     
-    :: 简单写法 mysqldump -u root -p123456 databaseName > D:\mysql_backup\filename.sql
     echo 备份 %database_name% 数据
-    %tool% -u %username% -p%password% %database_name% > %backup_dir%\%database_name%_%backup_date%.sql
+    :: 简单写法 mysqldump -u root -p123456 databaseName > D:\mysql_backup\filename.sql
+    :: %tool% -u %username% -p%password% -h %mysql_host% %database_name% > %backup_dir%\%database_name%_%backup_date%.sql
+    %tool% --opt --single-transaction=TRUE --user=%username% --password=%password% --host=%mysql_host% --port=%mysql_port% --protocol=tcp --default-character-set=utf8 --routines --events %database_name% > %backup_dir%\%database_name%_%backup_date%.sql
     
     :: 写创建备份日志
     echo "create %backup_dir%\%database_name%_%backup_date%.dupm" >> %backup_dir%\backup_log.txt
@@ -49,6 +69,10 @@
     
     :: 写删除备份日志
     echo "Delete backups %backup_day% days ago" >> %backup_dir%\backup_log.txt
+    
+    :: =======================================================================
+    :: =============================数据备份脚本 end  ========================
+    :: =======================================================================
     
     echo MySQL 备份结束
     
