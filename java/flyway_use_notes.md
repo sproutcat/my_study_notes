@@ -122,8 +122,6 @@ spring:
         #spring.flyway.user=root
         ## 密码，默认使用 spring.datasource.password
         #spring.flyway.password=123456
-
-		
 ```
 
 > **注意**：**Spring boot** 项目配置后 **Flyway** 后，每次启动服务，都会执行 **migrate** 命令。
