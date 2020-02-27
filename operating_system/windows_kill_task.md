@@ -4,8 +4,10 @@
 
 查询占用了8080端口的进程：
     
-    netstat -ano|findstr "8080"
-    
+```powershell
+netstat -ano|findstr "8080"
+```
+
 命令行显示如下：
 
     C:\Users\Administrator>netstat -ano|findstr "8080"
@@ -25,15 +27,17 @@ LISTENING后面为进程号，看用这个进程号在命令行中查找到相�
 1、首先找到进程号对应的进程名称
 tasklist|findstr 进程号
 
-    tasklist|findstr 12672
-    
+```powershell
+tasklist|findstr 12672
+```
+
 2、然后根据进程名称（或进程号）杀死进程
 taskkill /f /t /im 进程名称（或进程号）
 
     taskkill /f /t /im java.exe
     或
     taskkill /f /t /im 12672
-    
+
 ### 参考文章
 
 [Window 通过cmd查看端口占用、相应进程、杀死进程等的命令](http://blog.csdn.net/jiangwei0910410003/article/details/18967441)

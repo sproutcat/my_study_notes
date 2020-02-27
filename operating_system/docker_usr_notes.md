@@ -33,6 +33,7 @@ DOCKRE 使用笔记
 
 * 运行 **Docker Quickstart Terminal** ，提示成功后，即可在命令行中执行 docker 命令
 
+### WIN10 下 docker 的使用（撰写中）
 
-
-
+* 开启 Linux 子系统（Debian/Ubuntu）
+* 在 Linux 子系统中安装 Docker
