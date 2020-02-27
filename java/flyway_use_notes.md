@@ -26,7 +26,7 @@
 
 **Flyway** 可以在**文件系统**和 Java **类路径**上发现 SQL 迁移脚本。迁移脚本可以存在一个或多个目录中，可以通过 `locations` 属性进行设置。
 
-![迁移脚本路径](..\static\imgs\flyway_script_discovery.png)
+![迁移脚本路径](../static/imgs/flyway_script_discovery.png)
 
 在运行时，通过文件系统和Java类路径扫描**自动发现**基于SQL的新迁移。配置 `locations` 好要使用的SQL迁移后，只要它们符合配置的命名约定，Flyway就会自动选择任何新的SQL迁移。
 
